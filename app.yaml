@@ -1,9 +1,5 @@
-runtime: nodejs18  # Node.js version
-env: flex
-runtime_config:
-      operating_system: "ubuntu22"
-entrypoint: npm start  # Ensure your package.json has a start script
-
+runtime: nodejs18
+entrypoint: npm build
 handlers:
   - url: /.*
     script: auto
