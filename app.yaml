@@ -1,4 +1,7 @@
-runtime: nodejs19  # Node.js version
+runtime: nodejs  # Node.js version
+env: flex
+runtime_config:
+      operating_system: "ubuntu22"
 entrypoint: npm start  # Ensure your package.json has a start script
 
 handlers:
