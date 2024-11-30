@@ -1,4 +1,4 @@
-runtime: nodejs  # Node.js version
+runtime: nodejs18  # Node.js version
 env: flex
 runtime_config:
       operating_system: "ubuntu22"
