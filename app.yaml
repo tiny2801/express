@@ -1,7 +1,7 @@
-runtime: nodejs
-env: flex
+runtime: nodejs16  # Node.js version
+entrypoint: npm start  # Ensure your package.json has a start script
 
-# Optional: Set the number of instances for scaling
-automatic_scaling:
-  min_instances: 1
-  max_instances: 10
+handlers:
+  - url: /.*
+    script: auto
+
