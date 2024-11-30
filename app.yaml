@@ -1,4 +1,4 @@
-runtime: nodejs18  # Node.js version
+runtime: nodejs20  # Node.js version
 entrypoint: npm start  # Ensure your package.json has a start script
 
 handlers:
