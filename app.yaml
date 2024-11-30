@@ -1,6 +1,6 @@
-runtime: nodejs18  # Node.js version
+runtime: nodejs  # Node.js version
 entrypoint: npm start  # Ensure your package.json has a start script
-
+env: flex
 handlers:
   - url: /.*
     script: auto
